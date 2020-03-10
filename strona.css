@@ -1,0 +1,35 @@
+body
+{
+margin: 0px;	
+padding: 0px;
+position: relative;
+background-color: gray;
+}
+
+#menu
+	{
+		border: 1px solid black;
+		width: 100px;
+		height: 160px;
+		text-align: center;
+		position: fixed;
+		left: 50%;
+		transform: translateX(-50%);
+		top: -111px;		
+		background-color: orange;
+	}
+	
+#menu:hover
+{
+	padding-top:111px;
+	background-color: yellow;
+	
+}
+
+	
+#tytul
+	{
+
+	}
+	
+	
