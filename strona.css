@@ -4,8 +4,233 @@ margin: 0px;
 padding: 0px;
 position: relative;
 background-color: gray;
+background-image: url('plac_responsywny.jpg');
+		/* position of backgoud image */
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			background-attachment: fixed;
+		/*end of position of backgoud image */
+color: #ffeb99;
+text-shadow: -1px 1px 0 #000, /* there will appear border around letters */
+								   1px 1px 0 #000, 
+							       1px -1px 0 #000, 
+							      -1px -1px 0 #000;
 }
 
+/*position of menu in right top corner*/
+#menu
+	{
+		border: 1px solid black;
+		width: 110px;
+		height: 226px;
+		text-align: center;
+		background-color: orange;
+		position: fixed;
+		right:-50px;
+		top: -192px;
+		z-index:100;
+		text-shadow:none;
+	}
+/*end of position of menu in right top corner*/	
+
+/*MENU sign on the left bottom corner of  top right menu*/
+#icon
+	{
+		position: absolute;
+		left:0;
+		bottom:5px;
+		color: green;
+		
+	}
+/*end of MENU sign on the left bottom corner of top right menu*/
+
+/*what will happend after cllicking on top right menu*/
+#menu:hover
+{
+	padding-top:192px;
+	padding-right: 60px;
+	background-color: yellow;
+	z-index:100;
+}
+/*end of what will happend after cllicking on top right menu*/
+
+
+
+/*apperience of menu content*/	
+.menu_corner
+{
+	position: relative;
+	width:120px;
+	height:32px;
+	border: 1px solid black;
+	
+	/*centering text in the window*/
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	/*end of centering text in the window*/
+}	
+/*end of apperience of menu content*/
+
+/*apperience of hypertext*/
+a:link 
+	{
+		text-decoration: none;
+		color: red;
+	} 
+/*end of apperience of hypertext*/	
+a:hover
+{
+	color:red;
+}
+
+a:visited
+{
+	color:red;
+}
+	
+	
+#menu_top
+	{
+		position:fixed;
+		width:100%;
+		height:38px;
+		background-color: white;
+		z-index:20;
+		text-shadow:none;
+	}		
+	
+#start, #english, #ukrainska, #polska, .space
+	{
+		float:left;
+				
+	}
+	
+	
+#start
+	{
+		width:80px;
+		height:30px;
+		border: 1px solid black;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		background-color: orange;
+		
+	}
+	
+.space
+	{
+		width: 20px;
+	}
+	
+		
+#header
+{
+	position: relative;
+	padding-top:20px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.section
+{
+	position:relative;
+	width:100%;
+	height: 35px;
+	border:1px solid black;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	text-shadow:none;
+}
+
+h4
+{
+	padding-top:45px;
+}
+
+.section_list
+{
+	width:33%;
+	height: 35px;
+	float:left;
+	padding-left:2px;
+	padding-right:2px;
+	border: 1px solid black;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	font-size:17px; 
+	background-color: white;
+}	
+	
+	
+#bottom
+{
+	height:40px;
+}	
+	
+footer
+{
+	position:fixed;
+	bottom:0;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	height:40px;
+	width:100%;
+	background-color:white;
+	text-shadow:none;
+	color: black;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*menu na środku
 #menu
 	{
 		border: 1px solid black;
@@ -18,18 +243,4 @@ background-color: gray;
 		top: -111px;		
 		background-color: orange;
 	}
-	
-#menu:hover
-{
-	padding-top:111px;
-	background-color: yellow;
-	
-}
-
-	
-#tytul
-	{
-
-	}
-	
-	
+	*/
